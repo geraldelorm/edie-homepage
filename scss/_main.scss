@@ -7,8 +7,126 @@ main {
   margin: 0rem auto;
   display: grid;
   grid-template-columns: repeat(40, 1fr);
+  margin-top: 8rem;
+  @media (max-width: 700px) {
+    margin-top: 5rem;
+  }
 }
 
 .m-container {
   grid-column: 2/40;
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+
+  .blue-p {
+    grid-column: 6/41;
+    font-size: 1.1rem;
+    color: $blue;
+    @media (max-width: 700px) {
+      grid-column: 4/41;
+    }
+    @media (max-width: 550px) {
+      font-size: 0.7rem;
+      grid-column: 3/41;
+    }
+  }
+  .hero-head {
+    grid-column: 6/41;
+    font-size: 48px;
+    max-width: 550px;
+    color: $gray1;
+    @media (max-width: 700px) {
+      grid-column: 4/41;
+    }
+    @media (max-width: 550px) {
+      grid-column: 3/41;
+      font-size: 24px;
+      max-width: 280px;
+    }
+  }
+  .hero-img {
+    grid-column: 1/41;
+    width: 100%;
+    margin: 2rem 0;
+    border-radius: 0.8rem;
+    @media (max-width: 550px) {
+      margin: 1rem 0;
+    }
+  }
+
+  .mail-head {
+    grid-column: 6/41;
+    font-size: 48px;
+    max-width: 400px;
+    color: $gray1;
+    @media (max-width: 700px) {
+      grid-column: 4/41;
+    }
+    @media (max-width: 550px) {
+      grid-column: 3/41;
+      font-size: 24px;
+      max-width: 200px;
+    }
+  }
+  .mail-p {
+    grid-column: 6/41;
+    font-size: 18px;
+    max-width: 350px;
+    color: $gray2;
+    @media (max-width: 700px) {
+      grid-column: 4/41;
+    }
+    @media (max-width: 550px) {
+      font-size: 12px;
+      grid-column: 3/41;
+      max-width: 200px;
+    }
+  }
+
+  .mail-form {
+    margin: 2rem 0;
+    grid-column: 6/41;
+    label {
+      font-size: 1rem;
+      font-family: 'Poppins', sans-serif;
+      color: $gray2;
+    }
+    .input-area {
+      color: $gray2;
+      margin-top: 0.5rem;
+      background-color: $gray5;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 2.5rem;
+      max-width: 20rem;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 700px) {
+      grid-column: 4/41;
+    }
+    @media (max-width: 550px) {
+      font-size: 12px;
+      grid-column: 3/41;
+    }
+
+    input {
+      border: none;
+      padding-left: 8px;
+      outline: none;
+      background-color: transparent;
+    }
+    span {
+      background-color: $blue;
+      color: white;
+      height: 2.2rem;
+      width: 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 7px;
+      margin-right: 2px;
+    }
+  }
 }
