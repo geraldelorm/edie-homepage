@@ -59,13 +59,14 @@ footer {
       color: white;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       height: 2.5rem;
       width: 15rem;
       border-radius: 10px;
       input {
         border: none;
         padding-left: 8px;
+        outline: none;
       }
       span {
         background-color: $blue;
