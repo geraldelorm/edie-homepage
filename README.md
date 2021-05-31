@@ -38,7 +38,7 @@
 
 |                                           Desktop                                            |                                            Mobile                                            |
 | :------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: |
-| ![screenshot](https://github.com/geraldelorm/checkout-page/blob/main/assets/img/screen1.png) | ![screenshot](https://github.com/geraldelorm/checkout-page/blob/main/assets/img/screen2.png) |
+| ![screenshot](https://github.com/geraldelorm/edie-homepage/blob/main/assets/img/screen1.png) | ![screenshot](https://github.com/geraldelorm/edie-homepage/blob/main/assets/img/screen2.png) |
 
 ### Built With
 
