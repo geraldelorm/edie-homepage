@@ -13,7 +13,7 @@ main {
   }
 }
 
-.m-container {
+.home-container {
   grid-column: 2/40;
   display: grid;
   grid-template-columns: repeat(40, 1fr);
@@ -127,6 +127,93 @@ main {
       justify-content: center;
       border-radius: 7px;
       margin-right: 2px;
+    }
+  }
+
+  .services {
+    margin-top: 5rem;
+    grid-column: 3/39;
+    color: $gray1;
+    @media (max-width: 550px) {
+      font-size: 12px;
+      grid-column: 1/41;
+      margin-top: 2rem;
+      margin-left: 1rem;
+    }
+
+    h3 {
+      font-size: 36px;
+      max-width: 320px;
+
+      @media (max-width: 550px) {
+        font-size: 24px;
+        max-width: 250px;
+      }
+    }
+
+    .services-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      @media (max-width: 700px) {
+        flex-direction: column;
+      }
+      .card {
+        background-color: white;
+        margin: 1rem 0.5rem;
+        max-width: 300px;
+        max-height: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0.5rem;
+        border-radius: 24px;
+        cursor: pointer;
+
+        span {
+          color: white;
+          background-color: $blue;
+          padding: 0.9rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 10px;
+        }
+        .red {
+          background: rgba(235, 87, 87, 1);
+        }
+        .green {
+          background: rgba(39, 174, 96, 1);
+        }
+        h4 {
+          color: $gray1;
+          font-weight: 900;
+          font-size: 24px;
+          margin: 20px 0;
+        }
+        p {
+          font-size: 1rem;
+          color: $gray2;
+        }
+        button {
+          margin: 20px 0;
+          background-color: $gray5;
+          border: none;
+          border-radius: 10px;
+          font-size: 1rem;
+          padding: 10px 10px;
+          cursor: pointer;
+        }
+      }
+      .card:hover {
+        box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+
+        button {
+          background-color: $blue;
+          color: white;
+        }
+      }
     }
   }
 }

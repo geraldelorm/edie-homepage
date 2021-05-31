@@ -250,7 +250,7 @@ main {
   }
 }
 
-.m-container {
+.home-container {
   -ms-grid-column: 2;
   -ms-grid-column-span: 38;
   grid-column: 2/40;
@@ -260,7 +260,7 @@ main {
       grid-template-columns: repeat(40, 1fr);
 }
 
-.m-container .blue-p {
+.home-container .blue-p {
   -ms-grid-column: 6;
   -ms-grid-column-span: 35;
   grid-column: 6/41;
@@ -269,7 +269,7 @@ main {
 }
 
 @media (max-width: 700px) {
-  .m-container .blue-p {
+  .home-container .blue-p {
     -ms-grid-column: 4;
     -ms-grid-column-span: 37;
     grid-column: 4/41;
@@ -277,7 +277,7 @@ main {
 }
 
 @media (max-width: 550px) {
-  .m-container .blue-p {
+  .home-container .blue-p {
     font-size: 0.7rem;
     -ms-grid-column: 3;
     -ms-grid-column-span: 38;
@@ -285,7 +285,7 @@ main {
   }
 }
 
-.m-container .hero-head {
+.home-container .hero-head {
   -ms-grid-column: 6;
   -ms-grid-column-span: 35;
   grid-column: 6/41;
@@ -295,7 +295,7 @@ main {
 }
 
 @media (max-width: 700px) {
-  .m-container .hero-head {
+  .home-container .hero-head {
     -ms-grid-column: 4;
     -ms-grid-column-span: 37;
     grid-column: 4/41;
@@ -303,7 +303,7 @@ main {
 }
 
 @media (max-width: 550px) {
-  .m-container .hero-head {
+  .home-container .hero-head {
     -ms-grid-column: 3;
     -ms-grid-column-span: 38;
     grid-column: 3/41;
@@ -312,7 +312,7 @@ main {
   }
 }
 
-.m-container .hero-img {
+.home-container .hero-img {
   -ms-grid-column: 1;
   -ms-grid-column-span: 40;
   grid-column: 1/41;
@@ -322,12 +322,12 @@ main {
 }
 
 @media (max-width: 550px) {
-  .m-container .hero-img {
+  .home-container .hero-img {
     margin: 1rem 0;
   }
 }
 
-.m-container .mail-head {
+.home-container .mail-head {
   -ms-grid-column: 6;
   -ms-grid-column-span: 35;
   grid-column: 6/41;
@@ -337,7 +337,7 @@ main {
 }
 
 @media (max-width: 700px) {
-  .m-container .mail-head {
+  .home-container .mail-head {
     -ms-grid-column: 4;
     -ms-grid-column-span: 37;
     grid-column: 4/41;
@@ -345,7 +345,7 @@ main {
 }
 
 @media (max-width: 550px) {
-  .m-container .mail-head {
+  .home-container .mail-head {
     -ms-grid-column: 3;
     -ms-grid-column-span: 38;
     grid-column: 3/41;
@@ -354,7 +354,7 @@ main {
   }
 }
 
-.m-container .mail-p {
+.home-container .mail-p {
   -ms-grid-column: 6;
   -ms-grid-column-span: 35;
   grid-column: 6/41;
@@ -364,7 +364,7 @@ main {
 }
 
 @media (max-width: 700px) {
-  .m-container .mail-p {
+  .home-container .mail-p {
     -ms-grid-column: 4;
     -ms-grid-column-span: 37;
     grid-column: 4/41;
@@ -372,7 +372,7 @@ main {
 }
 
 @media (max-width: 550px) {
-  .m-container .mail-p {
+  .home-container .mail-p {
     font-size: 12px;
     -ms-grid-column: 3;
     -ms-grid-column-span: 38;
@@ -381,20 +381,20 @@ main {
   }
 }
 
-.m-container .mail-form {
+.home-container .mail-form {
   margin: 2rem 0;
   -ms-grid-column: 6;
   -ms-grid-column-span: 35;
   grid-column: 6/41;
 }
 
-.m-container .mail-form label {
+.home-container .mail-form label {
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
   color: #4f4f4f;
 }
 
-.m-container .mail-form .input-area {
+.home-container .mail-form .input-area {
   color: #4f4f4f;
   margin-top: 0.5rem;
   background-color: #e0e0e0;
@@ -413,7 +413,7 @@ main {
 }
 
 @media (max-width: 700px) {
-  .m-container .mail-form {
+  .home-container .mail-form {
     -ms-grid-column: 4;
     -ms-grid-column-span: 37;
     grid-column: 4/41;
@@ -421,7 +421,7 @@ main {
 }
 
 @media (max-width: 550px) {
-  .m-container .mail-form {
+  .home-container .mail-form {
     font-size: 12px;
     -ms-grid-column: 3;
     -ms-grid-column-span: 38;
@@ -429,14 +429,14 @@ main {
   }
 }
 
-.m-container .mail-form input {
+.home-container .mail-form input {
   border: none;
   padding-left: 8px;
   outline: none;
   background-color: transparent;
 }
 
-.m-container .mail-form span {
+.home-container .mail-form span {
   background-color: #2d9cdb;
   color: white;
   height: 2.2rem;
@@ -452,6 +452,137 @@ main {
           justify-content: center;
   border-radius: 7px;
   margin-right: 2px;
+}
+
+.home-container .services {
+  margin-top: 5rem;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 36;
+  grid-column: 3/39;
+  color: #333333;
+}
+
+@media (max-width: 550px) {
+  .home-container .services {
+    font-size: 12px;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 40;
+    grid-column: 1/41;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+}
+
+.home-container .services h3 {
+  font-size: 36px;
+  max-width: 320px;
+}
+
+@media (max-width: 550px) {
+  .home-container .services h3 {
+    font-size: 24px;
+    max-width: 250px;
+  }
+}
+
+.home-container .services .services-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  .home-container .services .services-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.home-container .services .services-container .card {
+  background-color: white;
+  margin: 1rem 0.5rem;
+  max-width: 300px;
+  max-height: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.home-container .services .services-container .card span {
+  color: white;
+  background-color: #2d9cdb;
+  padding: 0.9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+}
+
+.home-container .services .services-container .card .red {
+  background: #eb5757;
+}
+
+.home-container .services .services-container .card .green {
+  background: #27ae60;
+}
+
+.home-container .services .services-container .card h4 {
+  color: #333333;
+  font-weight: 900;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.home-container .services .services-container .card p {
+  font-size: 1rem;
+  color: #4f4f4f;
+}
+
+.home-container .services .services-container .card button {
+  margin: 20px 0;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.home-container .services .services-container .card:hover {
+  -webkit-box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+          box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+.home-container .services .services-container .card:hover button {
+  background-color: #2d9cdb;
+  color: white;
 }
 
 footer {
