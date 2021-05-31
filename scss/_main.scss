@@ -294,4 +294,33 @@ main {
       }
     }
   }
+  .clients {
+    margin-top: 5rem;
+    grid-column: 3/39;
+    color: $gray1;
+    @media (max-width: 550px) {
+      font-size: 12px;
+      grid-column: 1/41;
+      margin-top: 2rem;
+      margin-left: 1rem;
+    }
+    //
+    //
+    //
+  }
+
+  .testimonial {
+    margin: 5rem 0;
+    grid-column: 3/39;
+    color: $gray1;
+    @media (max-width: 550px) {
+      font-size: 12px;
+      grid-column: 1/41;
+      margin: 2rem 0;
+      margin-left: 1rem;
+    }
+    //
+    //
+    //
+  }
 }

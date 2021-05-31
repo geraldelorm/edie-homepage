@@ -716,6 +716,44 @@ main {
   }
 }
 
+.home-container .clients {
+  margin-top: 5rem;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 36;
+  grid-column: 3/39;
+  color: #333333;
+}
+
+@media (max-width: 550px) {
+  .home-container .clients {
+    font-size: 12px;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 40;
+    grid-column: 1/41;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+}
+
+.home-container .testimonial {
+  margin: 5rem 0;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 36;
+  grid-column: 3/39;
+  color: #333333;
+}
+
+@media (max-width: 550px) {
+  .home-container .testimonial {
+    font-size: 12px;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 40;
+    grid-column: 1/41;
+    margin: 2rem 0;
+    margin-left: 1rem;
+  }
+}
+
 footer {
   background-color: #100e1d;
   color: white;
