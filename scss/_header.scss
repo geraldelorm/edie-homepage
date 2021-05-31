@@ -1,15 +1,17 @@
 header {
   background-color: white;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
 }
 .header {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(40, 1fr);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1;
 }
 .h-container {
   display: flex;
